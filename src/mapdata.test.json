@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "1",
+    "power": 1,
+    "adjacent": [2, 3],
+    "color": "red"
+  },
+  {
+    "id": 2,
+    "name": "2",
+    "power": 1,
+    "adjacent": [1, 4],
+    "color": "green"
+  },
+  {
+    "id": 3,
+    "name": "3",
+    "power": 1,
+    "adjacent": [1, 4],
+    "color": "blue"
+  },
+  {
+    "id": 4,
+    "name": "4",
+    "power": 1,
+    "adjacent": [2, 3],
+    "color": "violet"
+  }
+]

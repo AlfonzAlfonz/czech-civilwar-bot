@@ -1,0 +1,55 @@
+<html>
+  <head>
+    <title>Czech civilwar bot</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+          "Segoe UI Symbol";
+      }
+      #map-container,
+      #controls {
+        margin: 0;
+        float: left;
+        height: 100vh;
+      }
+      #map-container {
+        width: 79%;
+        position: relative;
+      }
+      #faction-list {
+        position: absolute;
+        top: 0;
+        right: 0;
+        font-size: 0.8em;
+      }
+      #controls {
+        width: 20%;
+        padding: 1em;
+        border-left: 1px solid black;
+      }
+
+      button + button {
+        margin-left: 1em;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="map-container">
+      <div id="map"></div>
+      <ol id="faction-list"></ol>
+    </div>
+    <div id="controls">
+      <div>
+        <button id="next">Next step</button>
+        <button id="run">Run</button>
+      </div>
+    </div>
+    <script src="./bundle.js"></script>
+  </body>
+</html>

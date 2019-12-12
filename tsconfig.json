@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "target": "es6",
+    "jsx": "react",
+    "lib": ["dom", "es2017"],
+    "resolveJsonModule": true,
+    "noUnusedParameters": false,
+    "preserveConstEnums": true,
+    "removeComments": false,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "strict": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true
+  }
+}

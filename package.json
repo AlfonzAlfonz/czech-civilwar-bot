@@ -1,0 +1,40 @@
+{
+  "name": "czech-civilwar-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/libxmljs": "^0.18.4",
+    "@types/node": "^12.7.2",
+    "ts-node": "^8.3.0",
+    "webpack-cli": "^3.3.7"
+  },
+  "scripts": {
+    "ts": "yarn ts-node --project tsconfig.server.json",
+    "initData": "yarn ts scripts/initData.ts",
+    "integrity": "yarn ts scripts/checkIntegrity.ts",
+    "web": "yarn webpack && yarn ts server.ts",
+    "render": "yarn ts scripts/render.ts",
+    "post": "yarn ts scripts/post.ts",
+    "simulate": "yarn ts scripts/simulate.ts"
+  },
+  "dependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/node-fetch": "^2.5.3",
+    "@types/request": "^2.48.3",
+    "@types/request-promise-native": "^1.0.17",
+    "@types/sharp": "^0.23.0",
+    "convert-svg-to-png": "^0.5.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "libxmljs": "^0.19.7",
+    "node-fetch": "^2.6.0",
+    "random-weighted-item": "^1.0.15",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.8",
+    "sharp": "^0.23.2",
+    "ts-loader": "^6.0.4",
+    "typescript": "^3.5.3",
+    "webpack": "^4.39.3"
+  }
+}

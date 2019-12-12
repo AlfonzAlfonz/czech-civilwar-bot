@@ -1,0 +1,541 @@
+[
+  {
+    "id": 1,
+    "name": "Třebíč",
+    "power": 1,
+    "adjacent": [8, 2, 3, 4, 7],
+    "color": "rgb(228,106,186)"
+  },
+  {
+    "id": 2,
+    "name": "Brno-venkov",
+    "power": 1,
+    "adjacent": [1, 8, 74, 12, 70, 10, 3],
+    "color": "rgb(133,151,173)"
+  },
+  {
+    "id": 3,
+    "name": "Žďár nad Sázavou",
+    "power": 1,
+    "adjacent": [1, 2, 10, 11, 55, 6, 4],
+    "color": "rgb(244,204,246)"
+  },
+  {
+    "id": 4,
+    "name": "Jihlava",
+    "power": 1,
+    "adjacent": [1, 3, 6, 5, 7],
+    "color": "rgb(119,32,136)"
+  },
+  {
+    "id": 5,
+    "name": "Pelhřimov",
+    "power": 1,
+    "adjacent": [4, 6, 35, 9, 7],
+    "color": "rgb(84,113,155)"
+  },
+  {
+    "id": 6,
+    "name": "Havlíčkův Brod",
+    "power": 1,
+    "adjacent": [5, 4, 3, 55, 56, 35],
+    "color": "rgb(244,43,73)"
+  },
+  {
+    "id": 7,
+    "name": "Jindřichův Hradec",
+    "power": 1,
+    "adjacent": [76, 9, 5, 4, 1, 8],
+    "color": "rgb(153,192,187)"
+  },
+  {
+    "id": 8,
+    "name": "Znojmo",
+    "power": 1,
+    "adjacent": [7, 1, 2, 74],
+    "color": "rgb(69,209,163)"
+  },
+  {
+    "id": 9,
+    "name": "Tábor",
+    "power": 1,
+    "adjacent": [76, 7, 5, 35, 28, 22],
+    "color": "rgb(232,164,187)"
+  },
+  {
+    "id": 10,
+    "name": "Blansko",
+    "power": 1,
+    "adjacent": [71, 70, 2, 3, 11],
+    "color": "rgb(138,135,209)"
+  },
+  {
+    "id": 11,
+    "name": "Svitavy",
+    "power": 1,
+    "adjacent": [55, 54, 57, 64, 71, 10, 3],
+    "color": "rgb(104,29,40)"
+  },
+  {
+    "id": 12,
+    "name": "Brno-město",
+    "power": 1,
+    "adjacent": [2],
+    "color": "rgb(29,55,242)"
+  },
+  {
+    "id": 13,
+    "name": "Cheb",
+    "power": 1,
+    "adjacent": [20, 19, 14, 15],
+    "color": "rgb(220,74,159)"
+  },
+  {
+    "id": 14,
+    "name": "Sokolov",
+    "power": 1,
+    "adjacent": [13, 15],
+    "color": "rgb(135,77,118)"
+  },
+  {
+    "id": 15,
+    "name": "Karlovy Vary",
+    "power": 1,
+    "adjacent": [14, 13, 19, 17, 21],
+    "color": "rgb(208,149,85)"
+  },
+  {
+    "id": 16,
+    "name": "Most",
+    "power": 1,
+    "adjacent": [21, 17, 42],
+    "color": "rgb(44,63,249)"
+  },
+  {
+    "id": 17,
+    "name": "Louny",
+    "power": 1,
+    "adjacent": [21, 16, 42, 40, 29, 18, 19, 15],
+    "color": "rgb(80,206,220)"
+  },
+  {
+    "id": 18,
+    "name": "Rakovník",
+    "power": 1,
+    "adjacent": [29, 17, 19, 31, 30],
+    "color": "rgb(191,254,94)"
+  },
+  {
+    "id": 19,
+    "name": "Plzeň-sever",
+    "power": 1,
+    "adjacent": [18, 17, 15, 13, 20, 25, 24, 31],
+    "color": "rgb(61,142,199)"
+  },
+  {
+    "id": 20,
+    "name": "Tachov",
+    "power": 1,
+    "adjacent": [13, 19, 25, 27],
+    "color": "rgb(62,97,57)"
+  },
+  {
+    "id": 21,
+    "name": "Chomutov",
+    "power": 1,
+    "adjacent": [15, 17, 16],
+    "color": "rgb(241,21,87)"
+  },
+  {
+    "id": 22,
+    "name": "Písek",
+    "power": 1,
+    "adjacent": [28, 9, 76, 23],
+    "color": "rgb(65,129,180)"
+  },
+  {
+    "id": 23,
+    "name": "Strakonice",
+    "power": 1,
+    "adjacent": [28, 22, 76, 77, 26, 25],
+    "color": "rgb(49,152,167)"
+  },
+  {
+    "id": 24,
+    "name": "Plzeň-město",
+    "power": 1,
+    "adjacent": [31, 25, 19],
+    "color": "rgb(82,153,194)"
+  },
+  {
+    "id": 25,
+    "name": "Plzeň jih",
+    "power": 1,
+    "adjacent": [24, 31, 28, 23, 26, 27, 20, 19],
+    "color": "rgb(200,72,183)"
+  },
+  {
+    "id": 26,
+    "name": "Klatovy",
+    "power": 1,
+    "adjacent": [27, 25, 23, 77],
+    "color": "rgb(108,131,232)"
+  },
+  {
+    "id": 27,
+    "name": "Domažlice",
+    "power": 1,
+    "adjacent": [20, 25, 26],
+    "color": "rgb(71,142,194)"
+  },
+  {
+    "id": 28,
+    "name": "Příbram",
+    "power": 1,
+    "adjacent": [30, 34, 35, 9, 22, 23, 25, 31],
+    "color": "rgb(230,24,56)"
+  },
+  {
+    "id": 29,
+    "name": "Kladno",
+    "power": 1,
+    "adjacent": [40, 37, 34, 30, 18, 17],
+    "color": "rgb(154,196,221)"
+  },
+  {
+    "id": 30,
+    "name": "Beroun",
+    "power": 1,
+    "adjacent": [34, 29, 18, 31, 28],
+    "color": "rgb(73,22,73)"
+  },
+  {
+    "id": 31,
+    "name": "Rokycany",
+    "power": 1,
+    "adjacent": [18, 30, 28, 25, 24, 19],
+    "color": "rgb(254,67,43)"
+  },
+  {
+    "id": 32,
+    "name": "Praha",
+    "power": 1,
+    "adjacent": [33, 34],
+    "color": "rgb(166,98,220)"
+  },
+  {
+    "id": 33,
+    "name": "Praha-východ",
+    "power": 1,
+    "adjacent": [32, 34, 37, 36, 47, 46, 56, 35],
+    "color": "rgb(44,95,150)"
+  },
+  {
+    "id": 34,
+    "name": "Praha-západ",
+    "power": 1,
+    "adjacent": [29, 30, 28, 35, 33, 32, 37],
+    "color": "rgb(166,62,81)"
+  },
+  {
+    "id": 35,
+    "name": "Benešov",
+    "power": 1,
+    "adjacent": [34, 33, 56, 6, 5, 9, 28],
+    "color": "rgb(114,173,101)"
+  },
+  {
+    "id": 36,
+    "name": "Mladá Boleslav",
+    "power": 1,
+    "adjacent": [38, 44, 51, 49, 47, 33, 37],
+    "color": "rgb(81,130,139)"
+  },
+  {
+    "id": 37,
+    "name": "Mělník",
+    "power": 1,
+    "adjacent": [29, 40, 38, 36, 33, 34],
+    "color": "rgb(76,55,194)"
+  },
+  {
+    "id": 38,
+    "name": "Česká Lípa",
+    "power": 1,
+    "adjacent": [39, 40, 37, 36, 44],
+    "color": "rgb(189,124,162)"
+  },
+  {
+    "id": 39,
+    "name": "Děčín",
+    "power": 1,
+    "adjacent": [41, 40, 38],
+    "color": "rgb(143,159,186)"
+  },
+  {
+    "id": 40,
+    "name": "Litoměřice",
+    "power": 1,
+    "adjacent": [42, 41, 39, 38, 37, 29, 17],
+    "color": "rgb(206,184,250)"
+  },
+  {
+    "id": 41,
+    "name": "Ústí nad Labem",
+    "power": 1,
+    "adjacent": [42, 40, 39],
+    "color": "rgb(108,153,145)"
+  },
+  {
+    "id": 42,
+    "name": "Teplice",
+    "power": 1,
+    "adjacent": [16, 17, 40, 41],
+    "color": "rgb(46,135,48)"
+  },
+  {
+    "id": 43,
+    "name": "Jablonec nad Nisou",
+    "power": 1,
+    "adjacent": [44, 51],
+    "color": "rgb(27,49,95)"
+  },
+  {
+    "id": 44,
+    "name": "Liberec",
+    "power": 1,
+    "adjacent": [38, 36, 51, 43],
+    "color": "rgb(94,101,89)"
+  },
+  {
+    "id": 45,
+    "name": "Pardubice",
+    "power": 1,
+    "adjacent": [48, 52, 54, 55, 56, 46],
+    "color": "rgb(50,240,209)"
+  },
+  {
+    "id": 46,
+    "name": "Kolín",
+    "power": 1,
+    "adjacent": [47, 33, 48, 45, 56],
+    "color": "rgb(81,182,229)"
+  },
+  {
+    "id": 47,
+    "name": "Nymburk",
+    "power": 1,
+    "adjacent": [36, 49, 48, 46, 33],
+    "color": "rgb(190,185,197)"
+  },
+  {
+    "id": 48,
+    "name": "Hradec Králové",
+    "power": 1,
+    "adjacent": [53, 52, 45, 46, 47, 49, 50],
+    "color": "rgb(236,88,178)"
+  },
+  {
+    "id": 49,
+    "name": "Jičín",
+    "power": 1,
+    "adjacent": [51, 50, 48, 47, 36],
+    "color": "rgb(247,118,182)"
+  },
+  {
+    "id": 50,
+    "name": "Trutnov",
+    "power": 1,
+    "adjacent": [51, 49, 48, 53],
+    "color": "rgb(74,251,200)"
+  },
+  {
+    "id": 51,
+    "name": "Semily",
+    "power": 1,
+    "adjacent": [43, 44, 36, 49, 50],
+    "color": "rgb(150,106,131)"
+  },
+  {
+    "id": 52,
+    "name": "Rychnov nad Kněžnou",
+    "power": 1,
+    "adjacent": [53, 48, 45, 54],
+    "color": "rgb(40,152,38)"
+  },
+  {
+    "id": 53,
+    "name": "Náchod",
+    "power": 1,
+    "adjacent": [50, 48, 52],
+    "color": "rgb(40,189,252)"
+  },
+  {
+    "id": 54,
+    "name": "Ústí nad Orlicí",
+    "power": 1,
+    "adjacent": [52, 45, 55, 11, 57],
+    "color": "rgb(205,40,167)"
+  },
+  {
+    "id": 55,
+    "name": "Chrudim",
+    "power": 1,
+    "adjacent": [6, 3, 11, 54, 45, 56],
+    "color": "rgb(58,183,85)"
+  },
+  {
+    "id": 56,
+    "name": "Kutná Hora",
+    "power": 1,
+    "adjacent": [46, 33, 35, 6, 55, 45],
+    "color": "rgb(198,200,38)"
+  },
+  {
+    "id": 57,
+    "name": "Šumperk",
+    "power": 1,
+    "adjacent": [54, 11, 64, 58, 59],
+    "color": "rgb(207,230,25)"
+  },
+  {
+    "id": 58,
+    "name": "Bruntál",
+    "power": 1,
+    "adjacent": [59, 57, 64, 63],
+    "color": "rgb(204,124,80)"
+  },
+  {
+    "id": 59,
+    "name": "Jeseník",
+    "power": 1,
+    "adjacent": [57, 58],
+    "color": "rgb(116,242,199)"
+  },
+  {
+    "id": 60,
+    "name": "Karviná",
+    "power": 1,
+    "adjacent": [63, 61, 65],
+    "color": "rgb(173,112,189)"
+  },
+  {
+    "id": 61,
+    "name": "Ostrava-město",
+    "power": 1,
+    "adjacent": [63, 62, 65, 60],
+    "color": "rgb(49,148,231)"
+  },
+  {
+    "id": 62,
+    "name": "Nový Jičín",
+    "power": 1,
+    "adjacent": [63, 64, 68, 66, 65, 61],
+    "color": "rgb(118,172,46)"
+  },
+  {
+    "id": 63,
+    "name": "Opava",
+    "power": 1,
+    "adjacent": [58, 64, 62, 61, 60],
+    "color": "rgb(195,203,240)"
+  },
+  {
+    "id": 64,
+    "name": "Olomouc",
+    "power": 1,
+    "adjacent": [57, 58, 63, 62, 68, 71, 11],
+    "color": "rgb(173,178,25)"
+  },
+  {
+    "id": 65,
+    "name": "Frýdek-Místek",
+    "power": 1,
+    "adjacent": [60, 61, 62, 66],
+    "color": "rgb(66,58,110)"
+  },
+  {
+    "id": 66,
+    "name": "Vsetín",
+    "power": 1,
+    "adjacent": [65, 62, 68, 69, 67],
+    "color": "rgb(210,94,111)"
+  },
+  {
+    "id": 67,
+    "name": "Zlín",
+    "power": 1,
+    "adjacent": [66, 69, 72],
+    "color": "rgb(117,76,241)"
+  },
+  {
+    "id": 68,
+    "name": "Přerov",
+    "power": 1,
+    "adjacent": [62, 64, 71, 69, 66],
+    "color": "rgb(154,69,154)"
+  },
+  {
+    "id": 69,
+    "name": "Kroměříž",
+    "power": 1,
+    "adjacent": [68, 71, 70, 73, 72, 67, 66],
+    "color": "rgb(128,109,54)"
+  },
+  {
+    "id": 70,
+    "name": "Vyškov",
+    "power": 1,
+    "adjacent": [71, 69, 73, 74, 2, 10],
+    "color": "rgb(33,108,99)"
+  },
+  {
+    "id": 71,
+    "name": "Prostějov",
+    "power": 1,
+    "adjacent": [64, 68, 69, 70, 10, 11],
+    "color": "rgb(207,55,23)"
+  },
+  {
+    "id": 72,
+    "name": "Uherské hradiště",
+    "power": 1,
+    "adjacent": [67, 69, 73],
+    "color": "rgb(77,28,80)"
+  },
+  {
+    "id": 73,
+    "name": "Hodonín",
+    "power": 1,
+    "adjacent": [70, 69, 72, 74],
+    "color": "rgb(111,74,125)"
+  },
+  {
+    "id": 74,
+    "name": "Břeclav",
+    "power": 1,
+    "adjacent": [8, 2, 70, 73],
+    "color": "rgb(253,30,193)"
+  },
+  {
+    "id": 75,
+    "name": "Český Krumlov",
+    "power": 1,
+    "adjacent": [77, 76],
+    "color": "rgb(121,148,152)"
+  },
+  {
+    "id": 76,
+    "name": "České Budějovice",
+    "power": 1,
+    "adjacent": [75, 77, 7, 9, 22, 23],
+    "color": "rgb(224,119,166)"
+  },
+  {
+    "id": 77,
+    "name": "Prachatice",
+    "power": 1,
+    "adjacent": [26, 23, 76, 75],
+    "color": "rgb(224,119,166)"
+  }
+]
