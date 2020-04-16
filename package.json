@@ -24,7 +24,6 @@
     "@types/request": "^2.48.3",
     "@types/request-promise-native": "^1.0.17",
     "@types/sharp": "^0.23.0",
-    "convert-svg-to-png": "^0.5.0",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "libxmljs": "^0.19.7",
