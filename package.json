@@ -27,7 +27,7 @@
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "libxmljs": "^0.19.7",
-    "node-fetch": "^2.6.0",
+    "node-fetch": "^2.6.1",
     "random-weighted-item": "^1.0.15",
     "request": "^2.88.0",
     "request-promise-native": "^1.0.8",
